@@ -1,11 +1,11 @@
-# Campus-Power-Usage-Optimization-DB-System
-# 🏫 Campus Power Usage Optimization – SQL Project
+
+#  Campus Power Usage Optimization – SQL Project
 
 A database system built to track and optimize energy usage across different buildings, departments, and devices within a campus environment.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To create a normalized, relational SQL database system that helps:
 - Track power usage per device, room, and department
@@ -15,7 +15,7 @@ To create a normalized, relational SQL database system that helps:
 
 ---
 
-## 🧑‍💻 Features
+##  Features
 
 - Track device power usage logs  
 - Monitor threshold limits per room  
@@ -25,7 +25,7 @@ To create a normalized, relational SQL database system that helps:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - MySQL / SQLite  
 - SQL (DDL + DML + Queries)  
@@ -34,7 +34,7 @@ To create a normalized, relational SQL database system that helps:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 - `create_tables.sql` – SQL script to create all 10 related tables  
 - `insert_data.sql` – Script containing 7–8 realistic records per table  
@@ -47,7 +47,7 @@ To create a normalized, relational SQL database system that helps:
 
 ---
 
-## 🔗 ER Diagram
+##  ER Diagram
 
 ![ER Diagram](./ER_diagram.png)
 
@@ -55,7 +55,7 @@ To create a normalized, relational SQL database system that helps:
 
 ---
 
-## 📸 Sample Queries
+##  Sample Queries
 
 ```sql
 -- ✅ Used in: Basic JOIN
