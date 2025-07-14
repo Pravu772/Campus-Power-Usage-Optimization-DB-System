@@ -57,21 +57,20 @@ To create a normalized, relational SQL database system that helps:
 
 ##  Sample Queries
 
-```sql
--- ✅ Used in: Basic JOIN
+--  Used in: Basic JOIN
 -- List departments and their building names
 SELECT d.name AS department, b.name AS building
 FROM Departments d
 JOIN Buildings b ON d.building_id = b.building_id;
 
--- ✅ Used in: Aggregates + HAVING
+--  Used in: Aggregates + HAVING
 -- Devices with total usage over 1 kWh
 SELECT device_id, SUM(power_used_kwh) AS total_usage
 FROM PowerUsageLogs
 GROUP BY device_id
 HAVING total_usage > 1;
 
-## 🙌 Author
+##  Author
 Made with ❤️ by PRAVIN M
 
 
